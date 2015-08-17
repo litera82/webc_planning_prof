@@ -1,0 +1,1 @@
+UPDATE evenement SET evenement.evenement_iDuree=30 WHERE evenement.evenement_iDuree=1 AND evenement.evenement_iDureeTypeId=2

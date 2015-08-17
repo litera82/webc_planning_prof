@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/* 
+
+	@Description: styles global
+	@Auteur: tshr
+	@Creation: 15/05/2010
+
+*/
+
+
+/* ::: clearfix ::: */
+.clear:after { content:""; display:block; clear:both; visibility:hidden; line-height:0; height:0; }
+.clear { display:inline-block; }
+html[xmlns] .clear { display:block; }
+* html .clear { height:1%; }
+
+/* ::: commun ::: */
+body { margin:0; padding:0; font:normal 10px Arial, Geneva, sans-serif; color:#2c2c2c; background:#abbccc url(../images/design/bg.png) repeat-x top left;  }
+body * { margin:0; padding:0; border:none; outline:none; /*line-height:115%;*/ }
+fieldset { border:none; }
+ul, li { list-style:none; }
+a { text-decoration:none; color:#6d6149; }
+img { font-size:1em;  }
+
+input, select, textarea { font:normal 1em 'Arial', Helvetica, sans-serif; }
+legend, caption { display:none; }
+input.radio { width:13px; height:13px; }
+textarea { padding:2px 3px; }
+select { padding:1px 0 1px 5px; }
+.no_display { display:none; }
+
+/* ::: masque ::: */
+#masque { position:absolute; top:0; left:0; display:none; cursor:wait; background:#8acbd8; z-index:99; }
+.pop-up { height:auto; left:0; position:absolute; top:-1000px; z-index:2000; }
+

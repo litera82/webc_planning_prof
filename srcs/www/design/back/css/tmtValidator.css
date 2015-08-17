@@ -1,0 +1,26 @@
+input.invalid, textarea.invalid, select.invalid {
+	border: 2px dotted red;
+}
+
+label.invalid { color:#FF0000 !important; }
+
+input.invalid:focus, textarea.invalid:focus, select.invalid:focus {
+}
+
+p#errorDisplay {
+	border: 1px;
+	border-color:red;
+	border-style: solid;
+	color:red !important;
+	display: none;
+	margin:5px 10px;
+	/*margin:10px;*/
+}
+
+.errorDisplay {
+	color:red !important;
+	visibility: hidden;
+}
+
+
+

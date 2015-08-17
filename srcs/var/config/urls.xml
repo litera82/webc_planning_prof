@@ -1,0 +1,54 @@
+<urls xmlns="http://jelix.org/ns/urls/1.0">
+
+	<!-- ENTREE DU BACK OFFICE -->
+	<!--classicentrypoint name="admin" default="false">
+	
+    </classicentrypoint-->
+	<!-- ENTREE DU FRONT OFFICE -->
+		<classicentrypoint name="index" default="true">
+		 
+		<!-- Acceuil -->
+		<url pathinfo="/accueil" module="accueil" action="accueilFo:index" optionalTrailingSlash="true"></url>
+
+		<!-- garantie -->
+		<url pathinfo="/garantie_halal" module="garantie" action="garantieHalalFo:index" optionalTrailingSlash="true"></url>
+		<url pathinfo="/garantie_halal/liens_utiles" module="garantie" action="garantieHalalFo:liensUtiles" optionalTrailingSlash="true"></url>
+		<url pathinfo="/garantie_halal/questions_frequentes" module="garantie" action="garantieHalalFo:questionFrequente" optionalTrailingSlash="true"></url>
+
+		
+		<!-- offre -->
+		<url pathinfo="/espace_reghalal/les_offres_promotionnelles" module="offre" action="offreFo:offreDetail" optionalTrailingSlash="true"></url>
+
+		<!-- espace -->
+		<url pathinfo="/espace_reghalal" module="espace" action="espaceFo:index" optionalTrailingSlash="true"></url>
+
+		<!-- test -->
+		<url pathinfo="/espace_reghalal/tests_produits_consommateurs/:iCurrentPage" module="espace" action="espaceFo:espaceTestConsommateur" optionalTrailingSlash="true">
+			<param name="iCurrentPage" type="int"/>
+		</url>
+		<url handler="detailTest" module="espace" action="espaceFo:espaceDetailConsommateur" optionalTrailingSlash="true"></url>
+
+		<!-- mes infos -->
+		<url pathinfo="/espace_reghalal/mes_infos" module="espace" action="espaceFo:mesInfos" optionalTrailingSlash="true"></url>
+
+		<!-- produit -->
+		<url pathinfo="/produits_reghalal" module="produit" action="produitFo:index" optionalTrailingSlash="true"></url>
+		<url pathinfo="/produits_reghalal/volaille" module="produit" action="produitFo:produitVollaile" optionalTrailingSlash="true"></url>
+		<url pathinfo="/produits_reghalal/charcuterie" module="produit" action="produitFo:produitCharcuterie" optionalTrailingSlash="true"></url>
+		<url pathinfo="/produits_reghalal/traiteur" module="produit" action="produitFo:produitTraiteur" optionalTrailingSlash="true"></url>
+
+		<!-- recette -->
+		<url pathinfo="/recettes_halal/:iCurrentPage" module="recette" action="recetteFo:index" optionalTrailingSlash="true">
+			<param name="iCurrentPage" type="int"/>
+		</url>
+		<url handler="recetteFiche" module="recette" action="recetteFo:ficheRecette" optionalTrailingSlash="true"></url>
+
+		<!-- plan du site -->
+		<url pathinfo="/plan_du_site" module="commun" action="communFo:planSite" optionalTrailingSlash="true"></url>
+
+		<!-- 404 -->
+		<url pathinfo="/page_introuvable" module="commun" action="communFo:notFound" optionalTrailingSlash="true"></url>
+
+	</classicentrypoint>
+
+</urls>

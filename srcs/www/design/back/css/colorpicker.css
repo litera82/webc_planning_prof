@@ -1,0 +1,8 @@
+div#colorpicker201 .CODE { font-family: Courier New, Monospace; font-size:12px; font-weight:500; font-style:normal; text-decoration:none; font-variant:normal; color: #006F37; background: #FFFFF0; border: 1px dashed #008000; padding: 8px;}
+div#colorpicker201 p{line-height:160%;color:#666;}
+div#colorpicker201 h1{display:inline;font-size:16px;}
+div#colorpicker201 p.imp{color:crimson;font-weight:bold;}
+div#colorpicker201 ol,ul{color:#666;line-height:180%;}
+div#colorpicker201 input{font-size:10px;padding:0;letter-spacing:0; width:50px;}
+div#colorpicker201 tr.rola{background-color:white;}
+div#colorpicker201 td.rolb{cursor:pointer;text-align:center;border:dashed 1px white;background-color:white;}

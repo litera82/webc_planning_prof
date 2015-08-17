@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.pDiv1
+	{
+	background: url(images/wbg.gif) repeat-x top;
+	font-family: "trebuchet ms", verdana, arial;
+	font-size: 12px;
+	border: 1px solid #ccc;
+	border-bottom: 0px;
+	border-top: 0px;
+	font-weight: bold;
+	position: relative;
+	overflow: hidden;
+	display: block;
+	white-space: nowrap;
+	color: #00000;
+	}
+
+.largeur
+{
+	width: 20px;
+	height: 8px;
+	display: block;
+	float: left;
+
+}
+	
+div.pGroup
+{
+	float: left;
+	background: none;
+	height: 25px;
+	margin: 5px 5px 0;
+	color:#000;
+}
+
+div.pGroup1
+{
+	float: right;
+	background: none;
+	height: 25px;
+	margin: 5px 5px 0;
+	color:#000;
+}
+
+div.pGroup2
+{
+	float: center;
+	background: none;
+	height: 25px;
+	margin: 5px 5px 0;
+	color:#000;
+}
+
+.btnseparator
+{
+	float: left;
+	height: 28px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #fff;
+	margin: 1px;
+}
+
+.btnseparator1
+{
+	float: right;
+	height: 28px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #fff;
+	margin: 1px;
+}

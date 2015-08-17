@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dao xmlns="http://jelix.org/ns/dao/1.0">
+    <datasources>
+        <primarytable name="validationcours" realname="validationcours" primarykey="validationcours_id" />
+    </datasources>
+    <record>
+        <property name="validationcours_id" fieldname="validationcours_id" datatype="autoincrement"/>
+        <property name="validationcours_date" fieldname="validationcours_date" datatype="date"/>
+        <property name="validationcours_heure" fieldname="validationcours_heure" datatype="string"/>
+        <property name="validationcours_commentaire" fieldname="validationcours_commentaire" datatype="string"/>
+        <property name="validationcours_dateExport" fieldname="validationcours_dateExport" datatype="date"/>
+        <property name="validationcours_eventDescription" fieldname="validationcours_eventDescription" datatype="string"/>
+        <property name="validationcours_eventLibelle" fieldname="validationcours_eventLibelle" datatype="string"/>
+        <property name="validationcours_eventDateDebut" fieldname="validationcours_eventDateDebut" datatype="date"/>
+        <property name="validationcours_eventHeureDebut" fieldname="validationcours_eventHeureDebut" datatype="string"/>
+        <property name="validationcours_eventDateSaisie" fieldname="validationcours_eventDateSaisie" datatype="date"/>
+        <property name="validationcours_eventHeureSaisie" fieldname="validationcours_eventHeureSaisie" datatype="string"/>
+        <property name="validationcours_eventDure" fieldname="validationcours_eventDure" datatype="string"/>
+        <property name="validationcours_eventSolde" fieldname="validationcours_eventSolde" datatype="string"/>
+        <property name="validationcours_eventPrevu" fieldname="validationcours_eventPrevu" datatype="string"/>
+        <property name="validationcours_eventProduit" fieldname="validationcours_eventProduit" datatype="string"/>
+        <property name="validationcours_stagiaireCivilite" fieldname="validationcours_stagiaireCivilite" datatype="string"/>
+        <property name="validationcours_stagiaireNom" fieldname="validationcours_stagiaireNom" datatype="string"/>
+        <property name="validationcours_stagiairePrenom" fieldname="validationcours_stagiairePrenom" datatype="string"/>
+        <property name="validationcours_stagiaireFonction" fieldname="validationcours_stagiaireFonction" datatype="string"/>
+        <property name="validationcours_stagiaireMail" fieldname="validationcours_stagiaireMail" datatype="string"/>
+        <property name="validationcours_stagiaireTel" fieldname="validationcours_stagiaireTel" datatype="string"/>
+        <property name="validationcours_stagiaireAdresse" fieldname="validationcours_stagiaireAdresse" datatype="string"/>
+        <property name="validationcours_stagiaireNumeroIndividu" fieldname="validationcours_stagiaireNumeroIndividu" datatype="string"/>
+        <property name="validationcours_stagiaireSociete" fieldname="validationcours_stagiaireSociete" datatype="string"/>
+        <property name="validationcours_profCivilite" fieldname="validationcours_profCivilite" datatype="string"/>
+        <property name="validationcours_profNom" fieldname="validationcours_profNom" datatype="string"/>
+        <property name="validationcours_profPrenom" fieldname="validationcours_profPrenom" datatype="string"/>
+        <property name="validationcours_profTel" fieldname="validationcours_profTel" datatype="string"/>
+        <property name="validationcours_profMail" fieldname="validationcours_profMail" datatype="string"/>
+        <property name="validationcours_bureau" fieldname="validationcours_bureau" datatype="string"/>
+        <property name="validationcours_navigateur" fieldname="validationcours_navigateur" datatype="string"/>
+        <property name="validationcours_telFixe" fieldname="validationcours_telFixe" datatype="string"/>
+        <property name="validationcours_telMobile" fieldname="validationcours_telMobile" datatype="string"/>
+        <property name="validationcours_skype" fieldname="validationcours_skype" datatype="string"/>
+        <property name="validationcours_casqueSkype" fieldname="validationcours_casqueSkype" datatype="string"/>
+        <property name="validationcours_coursPrevus" fieldname="validationcours_coursPrevus" datatype="string"/>
+        <property name="validationcours_coursProduit" fieldname="validationcours_coursProduit" datatype="string"/>
+        <property name="validationcours_soldeAvantSaisie" fieldname="validationcours_soldeAvantSaisie" datatype="string"/>
+        <property name="validationcours_compteurEncours" fieldname="validationcours_compteurEncours" datatype="string" default="NULL"/>
+        <property name="validationcours_presence" fieldname="validationcours_presence" datatype="string" default="NULL"/>
+
+        <!--<property name="" fieldname="" datatype="string/int/float/date"
+        required="yes" maxlength="" minlength="" regexp="" sequence=""
+        updatepattern="" insertpattern="" selectpattern=""/>-->
+    </record>
+    <factory>
+        <!--<method name="findByStage" type="select/selectfirst/delete/update/php">
+            <parameter name="" />
+            <values>
+                <value property="" value="" />
+            </values>
+            <conditions logic="and/or">
+                <eq property="" value="" />
+            </conditions>
+            <order>
+                <orderitem property="" way="asc/desc" />
+            </order>
+            <limit offset="" count=""/>
+            <body><![CDATA[
+            ]]></body>
+        </method>-->
+    </factory>
+</dao>

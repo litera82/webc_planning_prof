@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<stagiaires>
+    <stagiaire>
+        <civilite><![CDATA[M]]></civilite>
+        <nom><![CDATA[KARADIMOV]]></nom>
+        <prenoms><![CDATA[Anton]]></prenoms>
+        <mail><![CDATA[akaradimov@carlsonwagonlit.com]]></mail>
+        <fonction><![CDATA[Corporate Audit]]></fonction>
+        <societe><![CDATA[CWT2]]></societe>
+        <num_individu><![CDATA[29002]]></num_individu>
+        <telephone><![CDATA[0141336328]]></telephone>
+        <portable><![CDATA[0628775325]]></portable>
+        <rue_stage><![CDATA[31, rue du Colonel Pierre Avia]]></rue_stage>
+        <ville_stage><![CDATA[CS 91551]]></ville_stage>
+        <cp_stage><![CDATA[75741]]></cp_stage>
+        <prof>
+            <nom><![CDATA[xxx]]></nom>
+            <prenom><![CDATA[yyy]]></prenom>
+        </prof>
+        <cryptedmd5><![CDATA[4478747fb4219c2ba867fa03c525dbc5]]></cryptedmd5>
+    </stagiaire>
+</stagiaires>
